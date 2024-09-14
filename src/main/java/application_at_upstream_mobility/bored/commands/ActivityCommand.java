@@ -17,7 +17,6 @@ public class ActivityCommand {
     }
 
     @ShellMethod(key = "activity", value = "Get a random activity")
-    public String activity() {
-        return activityController.getActivity().getBody("activity");
+    public String activity() {return activityController.getActivity().getBody();
     }
 }
