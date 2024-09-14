@@ -64,6 +64,11 @@
 			<artifactId>spring-shell-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>application_at_upstream_mobility</groupId>
+			<artifactId>bored</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
