@@ -21,10 +21,10 @@ public class FilterActivityCommand {
     /*education, recreational, social, charity, cooking, relaxation, busywork*/
 
     @ShellMethod(key = "education", value = "Get an educational activity.")
-    public String education() {return activityController.getFilterActivity("education").getBody().toString();
+    public String education() {return activityController.getFilterActivity("education").getBody();
     }
 
-   /* @ShellMethod(key = "recreational", value = "Get a recreational activity.")
+    @ShellMethod(key = "recreational", value = "Get a recreational activity.")
     public String recreation() {return activityController.getFilterActivity("recreational").getBody();
     }
 
@@ -46,6 +46,6 @@ public class FilterActivityCommand {
 
     @ShellMethod(key = "busywork", value = "Get a busywork activity.")
     public String busywork() {return activityController.getFilterActivity("busywork").getBody();
-    } */
+    }
 }
 
