@@ -20,3 +20,4 @@ public class ActivityCommand {
     public String activity() {return activityController.getActivity().getBody();
     }
 }
+
